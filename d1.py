@@ -3,7 +3,7 @@ import pickle
 import numpy as np 
 import sklearn
 
-h=open("Diabets_classifier.pkl","rb") 
+h=open("Diabets_Classifier.pkl","rb") 
 lr=pickle.load(h) 
 
 pregnancies=st.number_input("number of Pregnancies:",0,20,1) 
